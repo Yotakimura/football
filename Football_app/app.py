@@ -34,12 +34,14 @@
 
 
 import streamlit as st
-from pages import attendance, script_builder, reminders
+import pages_attendance
+import pages_script_builder
+import pages_reminders
 
 PAGES = {
-    "Practice Attendance": attendance.main,
-    "Practice Script Builder": script_builder.main,
-    "Automated Reminders": reminders.main,
+    "Practice Attendance": pages_attendance.main,
+    "Practice Script Builder": pages_script_builder.main,
+    "Automated Reminders": pages_reminders.main,
 }
 
 st.title("High School Football Team Manager")
