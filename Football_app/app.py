@@ -2,11 +2,15 @@ import streamlit as st
 import pages_attendance
 import pages_script_builder
 import pages_reminders
+import pages_communication
+import pages_health
 
 PAGES = {
     "Practice Attendance": pages_attendance.main,
     "Practice Script Builder": pages_script_builder.main,
     "Automated Reminders": pages_reminders.main,
+    "Communication Hub": pages_communication.main,
+    "Health & Wellness": pages_health.main,
 }
 
 st.title("High School Football Team Manager")
