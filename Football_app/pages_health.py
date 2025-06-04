@@ -1,6 +1,7 @@
 import streamlit as st
 import datetime
 
+def main():
 # --- Injury Tracking ---
 st.header("Injury Tracking")
 if "injuries" not in st.session_state:
