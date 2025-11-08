@@ -1,0 +1,18 @@
+[
+  {
+    "player_name": "Haruto Sato",
+    "title": "Koshien Regional Quarterfinal",
+    "description": "Five-inning relief appearance featuring 8 strikeouts and a 151 km/h fastball.",
+    "submitted_by": "Coach Nakamura",
+    "timestamp": "2024-05-18T10:30:00+09:00",
+    "external_url": "https://example.com/highlights/haruto-sato"
+  },
+  {
+    "player_name": "Kenta Watanabe",
+    "title": "Infield Workout – Tokai University",
+    "description": "Pre-draft workout demonstrating range and exchange tempo across the diamond.",
+    "submitted_by": "Tokai Univ Staff",
+    "timestamp": "2024-03-02T13:00:00+09:00",
+    "external_url": "https://example.com/highlights/kenta-watanabe"
+  }
+]
