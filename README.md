@@ -27,6 +27,7 @@ and secure collaboration during the earliest stages of the product roadmap.
    ```
 
 3. Explore each module using the sidebar navigation.
+   - The prototype seeds the session with example prospects, highlight submissions, and scout notes so you can evaluate the end-to-end workflow immediately.
 
 ## Roadmap
 

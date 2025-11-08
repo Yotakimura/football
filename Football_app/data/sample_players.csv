@@ -1,5 +1,5 @@
 name,age,level,position,school,prefecture,bats,throws,fastball_velocity_kmh,batting_avg,obp,era,innings_pitched,top_metrics,video_url,contact_email,availability_status
-Haruto Sato,18,High School,Pitcher,Osaka Kogyo,Osaka,R,R,148,,,.2,45,High spin fastball with late life,https://example.com/videos/haruto-sato,coach@osakakogyo.jp,Open to US college
+Haruto Sato,18,High School,Pitcher,Osaka Kogyo,Osaka,R,R,148,,,.2,45,"High spin fastball with late life",https://example.com/videos/haruto-sato,coach@osakakogyo.jp,Open to US college
 Kenta Watanabe,19,College,Shortstop,Tokai University,Kanagawa,L,R,,.372,.441,,,"Elite range and fast first step",https://example.com/videos/kenta-watanabe,skato@tokaiu.ac.jp,Seeking Division I
 Yuki Nakamura,17,High School,Catcher,Tohoku Gakuin,Miyagi,R,R,,.318,.390,,,"Pop time 1.9s, leadership behind the plate",https://example.com/videos/yuki-nakamura,coach@tohokugakuin.jp,Interest from JUCO
 Daichi Mori,20,College,Outfielder,Hosei University,Tokyo,L,L,,.355,.420,,,"Plus speed, gap power",https://example.com/videos/daichi-mori,scout@hosei.jp,Open to MLB tryouts
