@@ -1,21 +1,24 @@
+from __future__ import annotations
+
 import streamlit as st
-import pages_attendance
-import pages_script_builder
-import pages_reminders
-import pages_communication
-import pages_health
-import pages_calendar # <-- Add this import
+
+import pages_overview
+import pages_players
+import pages_video
+import pages_analytics
+import pages_scouts
+
+st.set_page_config(page_title="JP Prospect Scout", page_icon="⚾", layout="wide")
 
 PAGES = {
-    "Practice Attendance": pages_attendance.main,
-    "Practice Script Builder": pages_script_builder.main,
-    "Automated Reminders": pages_reminders.main,
-    "Communication Hub": pages_communication.main,
-    "Health & Wellness": pages_health.main,
-    "Calendar & Scheduling": pages_calendar.main, # <-- Add this line
+    "Overview": pages_overview.main,
+    "Prospect Database": pages_players.main,
+    "Video Library": pages_video.main,
+    "Analytics Sandbox": pages_analytics.main,
+    "Scout Workspace": pages_scouts.main,
 }
 
-st.title("High School Football Team Manager")
+st.sidebar.title("JP Prospect Scout")
+selection = st.sidebar.radio("Navigate", list(PAGES.keys()))
 
-page = st.sidebar.radio("Navigation", list(PAGES.keys()))
-PAGES[page]()
+PAGES[selection]()
